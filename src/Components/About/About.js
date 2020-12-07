@@ -5,7 +5,7 @@ const About = () =>
     <Box className="About">
         <Grid container spacing={2} alignItems="center" justify="center" style={{height:'100vh'}}>
             <Grid item sm={6} xs={12} >
-                <img style={{height:'100%', width:'100%'}} alt="Alexis-Poveda" src="https://firebasestorage.googleapis.com/v0/b/alexispoveda.appspot.com/o/alexis-removebg-preview.png?alt=media&token=add0ee7f-47f4-4c60-85b4-15746094aa04"/>
+                <img style={{height:'100%', width:'100%'}} alt="Alexis-Poveda" src="https://firebasestorage.googleapis.com/v0/b/alexispoveda.appspot.com/o/alexis-removebg.png?alt=media&token=3060bfda-a340-4ff7-89b3-b5948b34a08a"/>
             </Grid>
 
             <Grid item sm={6} xs={12} >

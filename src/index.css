@@ -5,6 +5,8 @@ html {
 
 body {
   background: url('https://lh5.googleusercontent.com/proxy/tjJRG8ELyrHCJQ18ThdF1ybYJ9CP1q6jDyCAECruLxqefc2gvH9YYUjKItQyvmWClmOoC3XivqciC7PbY2-1NtWxLE7fNsJFqYflxTi2EyE=w3840-h2160-p-k-no-nd-mv');
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

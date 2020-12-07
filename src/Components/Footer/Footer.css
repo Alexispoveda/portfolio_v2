@@ -1,0 +1,21 @@
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 1000;
+    width: 100%;
+    animation: backgroundColor-change 20s infinite;
+}
+
+@keyframes backgroundColor-change{
+    0% {background-color: pink;}
+    25% {background-color: lightblue;}
+    50% {background-color: lightgreen;}
+    75% {background-color: lightblue;}
+    100% {background-color: pink;}
+  }
