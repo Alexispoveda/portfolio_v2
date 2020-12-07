@@ -1,5 +1,63 @@
 h1{
-  font-family: 'Pacifico';
-  font-size: 10vw;
-  letter-spacing: 1vw;
+    font-family: 'Pacifico';
+    font-size: 7vw;
+    color: black;
+    text-shadow: -.5vw 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-weight: 100;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Pacifico';
+    font-size: 5vw;
+    color: black;
+    text-shadow: .5vw 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-weight: 100;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Pacifico';
+    font-size: 2vw;
+}
+
+h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 2vw;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    text-align: center;
+    text-shadow: .05vw 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+}
+
+h5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1vw;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 10vw;
+    }
+        
+    h2{
+        font-size: 8vw;
+    }
+
+    h3{
+        font-size: 6.5vw;
+    }
+
+    h4{
+        font-size: 6vw;
+    }
+    
+    h5{
+        font-size: 4vw;
+    }
 }

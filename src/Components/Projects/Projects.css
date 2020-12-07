@@ -1,0 +1,12 @@
+.Projects{
+    margin: 10vh;
+    height: 100vh;
+}
+
+.Project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%;
+}

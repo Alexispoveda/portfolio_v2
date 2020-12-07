@@ -1,1 +1,3 @@
-## 2.0
+## My personal porfolio
+
+Made with React, Material-UI, React Reveal and Firebase 🔥
