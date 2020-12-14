@@ -1,6 +1,7 @@
 h1{
     font-family: 'Pacifico';
-    font-size: 7vw;
+    font-size: 9vw;
+    margin: .2vw;
     color: black;
     text-shadow: -.5vw 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     font-weight: 100;
@@ -9,7 +10,8 @@ h1{
 
 h2{
     font-family: 'Pacifico';
-    font-size: 5vw;
+    font-size: 7vw;
+    margin: .2vw;
     color: black;
     text-shadow: .5vw 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     font-weight: 100;
@@ -18,13 +20,13 @@ h2{
 
 h3{
     font-family: 'Pacifico';
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
 h4{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
-    font-size: 2vw;
+    font-size: 3vw;
     flex-wrap: wrap;
     word-wrap: break-word;
     text-align: center;
@@ -34,7 +36,7 @@ h4{
 h5{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
-    font-size: 1vw;
+    font-size: 2vw;
     flex-wrap: wrap;
     word-wrap: break-word;
     text-align: center;
@@ -42,15 +44,19 @@ h5{
 
 @media (max-width: 600px){
     h1{
-        font-size: 10vw;
+        font-size: 14vw;
+        margin: .05vw;
+        text-shadow: -.5vh 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     }
         
     h2{
-        font-size: 8vw;
+        font-size: 11vw;
+        margin: .05vw;
+        text-shadow: .5vh 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     }
 
     h3{
-        font-size: 6.5vw;
+        font-size: 9vw;
     }
 
     h4{

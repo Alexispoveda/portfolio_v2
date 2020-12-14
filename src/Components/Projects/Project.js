@@ -2,7 +2,7 @@ import {Grid, Paper, Button, ButtonGroup} from '@material-ui/core'
 import Pulse from 'react-reveal/Pulse';
 
 const Project = props =>
-    <Grid item lg={3} md={4} sm={6} xs={12} {...props}>
+    <Grid item lg={3} md={4} sm={6} xs={12}>
         <Pulse>
             <Paper elevation={10} className="Project">
                 <h3>{props.title}</h3>

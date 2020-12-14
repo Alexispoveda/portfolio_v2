@@ -10,3 +10,9 @@
     align-items: center;
     padding: 5%;
 }
+
+@media (max-width: 600px){
+    .Projects{
+        margin: 0 5vw;
+    }
+}

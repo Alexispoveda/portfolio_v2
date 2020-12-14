@@ -10,21 +10,26 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Zoom from 'react-reveal/Zoom';
 import Jump from 'react-reveal/Jump';
 
+const iconStyle = {
+    fontSize: window.innerWidth > 600 ? '6vw' : '5vh',
+    color:'black'
+}
+
 const rrss = [
     {
-        logo: <GitHubIcon style={{fontSize:'6vw',color:'black'}}/>,
+        logo: <GitHubIcon style={iconStyle}/>,
         link: 'https://github.com/alexispoveda'
     },
     {
-        logo: <LinkedInIcon style={{fontSize:'6vw',color:'black'}}/>,
+        logo: <LinkedInIcon style={iconStyle}/>,
         link: 'https://linkedin.com/in/alexispoveda'
     },
     {
-        logo: <TwitterIcon style={{fontSize:'6vw',color:'black'}}/>,
+        logo: <TwitterIcon style={iconStyle}/>,
         link: 'https://twitter.com/alexispovedaa'
     },
     {
-        logo: <InstagramIcon style={{fontSize:'6vw',color:'black'}}/>,
+        logo: <InstagramIcon style={iconStyle}/>,
         link: 'https://instagram.com/alexispoveda'
     }
 ]
@@ -42,7 +47,7 @@ const Header = () =>
         <Zoom right duration={1200}>
             <Box display="flex" width="80vw" justifyContent="space-evenly">
                 {rrss.map(rs=>
-                    <IconButton key={rs.link} href={rs.link} target="_blank">
+                    <IconButton key={rs.link} href={rs.link} target="_blank" >
                         {rs.logo}
                     </IconButton>
                 )}
@@ -51,7 +56,7 @@ const Header = () =>
         
         <Jump forever>
             <IconButton onClick={()=>window.scroll({top:window.innerHeight})}>
-                <ExpandMoreIcon style={{fontSize:'6vw',color:'black',margin:'1vh'}}/>
+                <ExpandMoreIcon style={iconStyle}/>
             </IconButton>
         </Jump>
 
