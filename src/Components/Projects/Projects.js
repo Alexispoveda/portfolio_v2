@@ -23,7 +23,7 @@ const Projects = () =>{
 
     return(
         <Box className="Projects">
-            <Grid container spacing={4}>
+            <Grid container spacing={4} direction={window.innerWidth > 600 ? "row" : "column"} style={{height:'100%', overflowX:'auto'}} alignItems="center" justify="space-evenly">
                 {
                     ProjectsState.map(project=>
                         <Project
