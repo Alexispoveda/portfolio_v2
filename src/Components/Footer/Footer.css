@@ -5,11 +5,13 @@
 }
 
 footer{
-    position: absolute;
-    left: 0;
-    bottom: 1000;
-    width: 100%;
+    margin-top: 5%;
+    width: 100vw;
     animation: backgroundColor-change 20s infinite;
+}
+
+footer:hover{
+    animation: backgroundColor-change 2s infinite;
 }
 
 @keyframes backgroundColor-change{
@@ -18,4 +20,10 @@ footer{
     50% {background-color: lightgreen;}
     75% {background-color: lightblue;}
     100% {background-color: pink;}
-  }
+}
+
+@media (max-width: 600px){
+    .Container{
+        flex-direction: column;
+    }
+}
